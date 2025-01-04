@@ -1,0 +1,113 @@
+/* Page */
+.global-page {
+    /* Box */
+    box-sizing: border-box;
+        
+    /* Display */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* Margin */
+    margin: 0 auto;
+
+    /* Padding */
+    padding: 0 auto;
+
+    /* Text */
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+
+    /* Background*/
+    background-color: white;
+
+    /* Border */
+}
+
+/* Header */
+h1 {
+    /* Box */
+    box-sizing: border-box;
+
+    /* Margin */
+    margin: 0 auto;
+
+    /* Padding */
+    padding: 40px 0px 40px 0px;
+
+    /* Text */
+    text-align: center;
+
+    /* Background */
+    backdrop-filter: blur(5px);
+
+    /* Border */
+    border-radius: 20px;
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 1);
+}
+
+
+/* Button */
+button {
+    /* Margin */
+    margin: 0 auto;
+
+    /* Padding */
+    padding: 10px 20px 10px 20px;
+
+    /* Text */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+
+    /* Background */
+    background-color: black;
+
+    /* Border */
+    border: none;
+    border-radius: 20px;
+
+    /* Cursor */
+    cursor: pointer;
+
+    /* Transition */
+    transition: 0.3s;
+}
+
+button:hover {
+    /* Text */
+    color: black;
+
+    /* Background */
+    background-color: white;
+
+    /* Border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Input and Select */
+input {
+    /* Box */
+    box-sizing: border-box;
+
+    /* Margin */
+
+    /* Padding */
+    padding: 10px 10px 10px 10px;
+
+    /* Text */
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+
+    /* Background*/
+    background-color: white;
+
+    /* Border */
+    border-radius: 20px;
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,9 @@
+npm create-react-app client
+npm install web3 ethers hardhat
+npx hardhat
+npm install --save-deve @nomicfoundation/hardhat-toolbox
+
+Using Three Terminals:
+1: npx hardhat node
+2: npx hardhat run src/scripts/deploy.js --network localhost
+3: npm run start

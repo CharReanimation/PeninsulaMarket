@@ -1,0 +1,118 @@
+/* Nav.css */
+nav {
+    /* Box */
+    box-sizing: border-box;
+
+    /* Display */
+    display: flex;
+    justify-content: flex-start;
+
+    /* Padding */
+    padding: 30px 0px 30px 20px;
+
+    /* Text */
+    font-size: large;
+
+    /* Background */
+    background-color: black;
+
+    /* Border */
+    border-bottom: 1px solid #ddd;
+}
+
+/* Unordered list styles */
+nav ul {
+    /* Display */
+    display: grid;
+
+    /* Amount of elements in navigation*/
+    grid-template-columns: repeat(9, 1fr);
+    
+    /* Rows */
+    grid-gap: 0px;
+}
+
+/* List item styles */
+nav ul li {
+    /* Margin */
+    margin-right: 20px;
+
+    /* Decoration */
+    list-style-type: none;
+}
+
+/* Link styles */
+nav ul li a {
+    /* Display */
+
+    /* Margin */
+
+    /* Padding */
+    padding: 40px 10px 40px 10px;
+
+    /* Text */
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+
+    /* Background*/
+
+
+    /* Border */
+    border-radius: 20px;
+
+
+    /* Transition */
+    transition: 0.4s ease;
+}
+
+/* Hover effect for links */
+nav ul li a:hover {
+    /* Margin */
+
+    /* Padding */
+    padding: 10px 10px 90px 10px;
+
+    /* Text */
+    color: black;
+
+    /* Background*/
+    background-color: white;
+
+    /* Border */
+    border-radius: 20px;
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Hover active for links */
+nav ul li a.active {
+    /* Margin */
+
+    /* Padding */
+    padding: 10px 10px 90px 10px;
+
+    /* Text */
+    color: black;
+
+    /* Background*/
+    background-color: white;
+
+    /* Border */
+    border-radius: 20px;
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Logo */
+.nav-logo-image {
+    /* Display */
+    width: 70px;
+    height: auto;
+
+    /* Margin */
+    margin: 0px 10px 0px 0px;
+
+    /* Border */
+    border-radius: 50px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.5);
+}

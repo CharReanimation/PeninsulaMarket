@@ -1,0 +1,45 @@
+/* Container */
+#login-container {
+    /* Box */
+    box-sizing: border-box;
+    
+    /* Display */
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Gap Between Column*/
+
+    /* Margin */
+    margin: 70px 0px 70px 0px;
+
+    /* Padding */
+    padding: 40px 40px 40px 40px;
+
+    /* Border */
+    border-radius: 20px;
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Header */
+#login-h1 {
+    /* Display */
+    width: 100%;
+}
+
+/* Input */
+.login-input {
+    /* Display*/
+    width: 100%;
+
+    /* Margin */
+    margin: 0px 0px 0px 0px;
+}
+
+/* Btn */
+.login-btn {
+    /* Display */
+    width: 100%;
+}

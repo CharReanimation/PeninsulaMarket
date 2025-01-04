@@ -1,0 +1,56 @@
+.nft-create-container {
+    /* Box */
+    box-sizing: border-box;
+
+    /* Display */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    /* Gap Between Column*/
+
+    /* Margin */
+    margin: 70px 0px 70px 0px;
+
+    /* Padding */
+    padding: 40px 40px 40px 40px;
+
+    /* Border */
+    border-radius: 20px;
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.5);
+}
+
+.nft-create-h1 {
+    /* Display */
+    width: 100%;
+}
+
+
+
+
+/* Form Container */
+#nft-create-form-container {
+    /* Display */
+    width: 100%;
+
+    /* Padding */
+    padding: 40px 0px 0px 0px;
+}
+
+/* Form */
+.nft-create-form {
+    /* Display */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    gap: 20px;
+}
+
+
+/* Button */
+#nft-create-form-btn {
+    /* Display */
+    width: 100%;
+}

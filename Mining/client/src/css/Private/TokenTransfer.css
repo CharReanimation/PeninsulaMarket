@@ -1,0 +1,147 @@
+/* Container */
+.token-transfer-container {
+    /* Box */
+    box-sizing: border-box;
+
+    /* Display */
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* Gap Between Column*/
+
+    /* Margin */
+    margin: 70px 0px 70px 0px;
+
+    /* Padding */
+    padding: 40px 40px 40px 40px;
+
+    /* Border */
+    border-radius: 20px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Header */
+#token-transfer-h1 {
+    /* Display */
+    width: 100%;
+}
+
+/* Data Container */
+#token-transfer-data {
+    /* Box */
+    box-sizing: border-box;
+
+    /* Display */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0px;
+    /* Gap Between Column*/
+
+    /* Margin */
+    margin: 40px 0px 40px 0px;
+
+    /* Padding */
+    padding: 40px 40px 40px 40px;
+
+    /* Border */
+    border-radius: 20px;
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+/* Form Container */
+.token-transfer-form-container {
+    /* Box */
+    box-sizing: border-box;
+
+    /* Display */
+    width: 100%;
+    display: grid;
+
+    /* Amount of elements in navigation*/
+    grid-template-rows: repeat(2, 1fr);
+
+    /* Gap */
+    grid-gap: 20px;
+
+    /* Padding */
+}
+
+/* Label & Input Container */
+.token-transfer-form-item {
+    /* Box */
+    box-sizing: border-box;
+
+    /* Display */
+    width: 100%;
+
+    /* Margin */
+    margin: 10px 0px 10px 0px;
+    
+    /* Padding */
+    padding: 40px 40px 40px 40px;
+
+    /* Background */
+    background-color: rgb(255, 255, 255);
+
+    /* Border */
+    border-radius: 20px;
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Label */
+.token-transfer-item-label {
+    /* Box */
+    box-sizing: border-box;
+
+    /* Display */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Margin */
+    margin: 0px 0px 35px 0px;
+
+    /* Padding */
+    padding: 20px 0px 20px 0px;
+
+    /* Background */
+    background-color: white;
+
+    /* Border */
+    border-radius: 20px;
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.3);
+}
+
+#token-transfer-recipient{
+    /* Text */
+    color: black;
+}
+
+
+/* Input */
+.token-transfer-input {
+    /* Box */
+    box-sizing: border-box;
+
+    /* Display */
+    width: 100%;
+
+    /* Margin */
+    margin: 0px 0px 0px 0px;
+}
+
+/* Button */
+.token-transfer-button {
+    /* Display */
+    width: 100%;
+}
