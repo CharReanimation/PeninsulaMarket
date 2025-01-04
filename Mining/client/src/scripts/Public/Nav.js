@@ -4,6 +4,7 @@ import { Link, useLocation } from "react-router-dom";
 // CSS
 import "../../css/Public/Nav.css";
 
+// Nav
 const Nav = ({ isLoggedIn }) => {
   // Current Location
   const location = useLocation();
@@ -122,9 +123,6 @@ const Nav = ({ isLoggedIn }) => {
           </li>
         )}
 
-
-
-
         {/* LOGIN */}
         {!isLoggedIn && (
           <li>
@@ -133,6 +131,18 @@ const Nav = ({ isLoggedIn }) => {
               className={location.pathname === "/login" ? "active" : ""}
             >
               LOGIN
+            </Link>
+          </li>
+        )}
+
+        {/* LOGOUT */}
+        {isLoggedIn && (
+          <li>
+            <Link
+              to="/logout"
+              className={location.pathname === "/logout" ? "active" : ""}
+            >
+              LOGOUT
             </Link>
           </li>
         )}

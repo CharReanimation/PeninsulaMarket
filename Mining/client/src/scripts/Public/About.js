@@ -4,6 +4,7 @@ import React from "react"; // React
 import "../../css/Public/Global.css";
 import "../../css/Public/About.css";
 
+// About
 const About = () => {
     return (
         <div className="global-page">

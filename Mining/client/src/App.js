@@ -21,6 +21,7 @@ import Store from "./scripts/Private/Store";
 import TokenTransfer from "./scripts/Private/TokenTransfer";
 import NFTCreate from "./scripts/Private/NFTCreation";
 import Raffle from "./scripts/Private/Raffle";
+import Logout from "./scripts/Private/Logout";
 
 
 const App = () => {
@@ -30,7 +31,7 @@ const App = () => {
   // Hooks
   const { account } = useAccount(miningAbi, miningTokenContractAddress); // Use Account: Get Account From Contract
 
-  // Handle login
+  // Handle Login
   const handleLogin = (address) => {
     if (account.toLowerCase() === address.toLowerCase()) {
       setCurrentAccount(address); // Save current account
@@ -41,6 +42,11 @@ const App = () => {
     }
   };
 
+  // Handle Logout
+  const handleLogout = () => {
+    setCurrentAccount("");
+  };
+
   // Protect routes if not logged in
   const RequireLogin = ({ children }) => {
     if (!account) {
@@ -49,6 +55,8 @@ const App = () => {
     if (account.toLowerCase() !== currentAccount.toLowerCase()) {
       return <Navigate to="/login" />;
     }
+
+    // Render Children
     return children;
   };
 
@@ -65,6 +73,9 @@ const App = () => {
 
           {/* Login */}
           <Route path="/login" element={<Login onLogin={handleLogin} />} />
+
+          {/* Login */}
+          <Route path="/logout" element={<Logout onLogout={handleLogout} />} />
 
           {/* About */}
           <Route path="/about" element={<About />} />
