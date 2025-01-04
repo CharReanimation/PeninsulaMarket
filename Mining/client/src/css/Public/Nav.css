@@ -26,10 +26,10 @@ nav ul {
     display: grid;
 
     /* Amount of elements in navigation*/
-    grid-template-columns: repeat(9, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     
     /* Rows */
-    grid-gap: 0px;
+    grid-gap: 10px;
 }
 
 /* List item styles */

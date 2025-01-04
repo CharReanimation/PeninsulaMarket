@@ -51,6 +51,22 @@ export const HandleRaffle = async (web3, account, balance, miningTokenContract, 
             return;
         }
 
+        // Check Enough Balance
+        if (balance < RAFFLE_LOST) {
+            alert(`NO ENOUGH BALANCE!! No need at least 100 TOKENS`);
+            return;
+        }
+
+        // Confirmation prompt
+        const userInput = window.prompt(
+            "You know what? It costs 100 TOKENS to perform a Raffle\n\n Type: \"RAFFLE\" to continue"
+        );
+
+        if (userInput !== "RAFFLE") {
+            alert("Raffle Cancelled!");
+            return;
+        }
+
         // Generate Random Numbers
         generateRandomNumbers();
 

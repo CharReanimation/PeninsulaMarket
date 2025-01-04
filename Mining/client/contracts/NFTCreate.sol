@@ -14,7 +14,7 @@ contract NFTCreate is ERC721URIStorage, Ownable {
     }
 
     function createNFT(
-        string memory tokenURI
+        string calldata tokenURI
     ) public onlyOwner returns (uint256) {
         uint256 newTokenId = tokenCounter;
         // Create a new NFT

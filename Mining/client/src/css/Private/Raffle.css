@@ -1,0 +1,154 @@
+#raffle-container {
+    /* Box */
+    box-sizing: border-box;
+
+    /* Display */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Margin */
+    margin: 0px 0px 0px 0px;
+
+    /* Padding */
+    padding: 0px 0px 0px 0px;
+
+}
+
+/* Backgroun Video */
+#background-video {
+    /* Display */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    pointer-events: none;
+
+    /* Margin */
+    margin: 0px 0px 0px 0px;
+
+    /* Background */
+}
+
+#raffle-container-data {
+    /* Box */
+    box-sizing: border-box;
+
+    /* Display*/
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* Margin */
+
+    /* Padding */
+    padding: 0px 0px 0px 0px;
+
+    /* Background */
+    background-color: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(50px);
+
+    /* Border */
+    border-radius: 0px;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 1);
+
+    /* Overflow */
+    overflow: hidden;
+}
+
+#raffle-container-data-inner {
+    /* Box */
+    box-sizing: border-box;
+
+    /* Display*/
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+
+    /* Padding */
+    padding: 80px 80px 80px 80px;
+
+    /* Background */
+    background-color: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(10px);
+
+    /* Border */
+    border-radius: 10px;
+    box-shadow: 0 0 5px 2px rgb(0, 0, 0, 0.8);
+
+    /* Overflow */
+    overflow: hidden;
+}
+
+.raffle-container-inner-items {
+    /* Box */
+    box-sizing: border-box;
+    
+    /* Display*/
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    /* Margin */
+    margin: 0px 0px 0px 0px;
+
+    /* Padding */
+    padding: 10px 0px 10px 0px;
+}
+
+
+
+
+/* h1 */
+.raffle-h1{
+
+    /* Display*/
+    width: 100%;
+
+    /* TEXT */
+    color: black;
+
+    /* Background */
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+
+    /* Padding */
+    padding: 20px 20px 20px 20px;
+}
+
+/* h2 */
+.raffle-h2{
+    /* TEXT */
+    animation: colorFlash 1s infinite;
+}
+
+/* Color Flash */
+@keyframes colorFlash {
+    0% { color: rgb(255, 0, 0); }   /* R */
+    25% { color: rgb(0, 255, 0); }  /* G */
+    50% { color: rgb(0, 0, 255); }  /* B */
+    75% { color: rgb(255, 255, 255); }/* W */
+    100% { color: rgb(255, 0, 0); }
+}
+
+
+
+/* Button */
+.raffle-btn {
+    /* Display*/
+    width: 100%;
+}

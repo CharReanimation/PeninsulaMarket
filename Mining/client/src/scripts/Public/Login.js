@@ -43,7 +43,7 @@ const Login = ({ onLogin }) => {
                     type="text"
                     placeholder="Enter Account"
                     value={Account}
-                    onChange={(e) => setAccount(e.target.value)}
+                    onChange={(e) => setAccount(e.target.value.replace(/\s+/g, ""))}
                 />
                 <button className="login-btn" onClick={handleLogin}>Submit</button>
             </div>
