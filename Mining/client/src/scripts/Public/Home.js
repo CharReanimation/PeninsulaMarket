@@ -20,4 +20,6 @@ const Home = () => {
         </div>
     );
 }
+
+// Export
 export default Home;

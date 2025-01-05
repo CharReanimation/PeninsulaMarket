@@ -16,4 +16,6 @@ const About = () => {
         </div>
     );
 }
+
+// Export
 export default About;
