@@ -8,7 +8,6 @@ Currently running with Hardhat (Locally) <br />
 Ethereum Hardhat
 ReactJS <br />
 Web3JS <br />
-<br />
 
 #### Language Using:
 Solidity <br />
