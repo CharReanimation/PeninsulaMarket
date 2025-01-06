@@ -47,13 +47,17 @@ User Logout here
 <br />
 
 #### Store
-This is a Private Store that requires "Special Tokens"
+This is a Private Store that requires "Special Tokens" <br />
 Yeah, you can buy funny stuff hahahahahaha. Alright, it's just a mere joke (Test Only)
 <br />
 
 #### Mining
-This page will perform mining to let users get the "Special Tokens"
+This page will perform mining to let users get the "Special Tokens" <br />
 Currently, Mining is Super EZ (Test Only)
+<br />
+
+#### Raffle
+Users can spend 100 "Special Tokens" to perform a raffle to win around 50 - 500 "Special Tokens"
 <br />
 
 #### Transfer
@@ -61,7 +65,7 @@ This page handles transferring "Special Tokens" from the current account to anot
 <br />
 
 #### NFT Create
-Users can upload files to this page and creating their NFT (Test Only)
+Users can upload files to this page and create their NFT (Test Only) <br />
 Now, it is still working in progress
 <br />
 
@@ -71,3 +75,6 @@ This page will show your account profile: Avatar, Address, Token Balance
 
 
 
+
+## How To Use?
+1. Switch to "client"
