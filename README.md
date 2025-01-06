@@ -79,3 +79,9 @@ This page will show your account profile: Avatar, Address, Token Balance
 
 ## How To Use?
 1. Switch to "client"
+2. npm install web3 ethers hardhat
+3. Create 3 Terminals:
+- First Terminal: npx hardhat node
+- Second Terminal: npx hardhat run src/scripts/deploy.js --network localhost
+- Third Terminal: npm run start
+4. Using browser, navigate to "http://localhost:3000/"
