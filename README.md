@@ -3,11 +3,18 @@
 ## What's this?
 A Website using the Ethereum network. <br />
 Currently running with Hardhat (Locally) <br />
+
 #### Tech Using:
-Solidity <br />
-JavaScript <br />
+Ethereum Hardhat
 ReactJS <br />
 Web3JS <br />
+<br />
+
+### Language Using:
+Solidity <br />
+JavaScript <br />
+HTML <br />
+CSS <br />
 <br />
 
 
