@@ -78,14 +78,14 @@ This page will show your account profile: Avatar, Address, Token Balance
 
 
 ## Preparation:
-NodeJS, VSCode
+NodeJS <br />
+VSCode <br />
 <br />
-<br />
 
 
 
 
-## How To Use?
+## How To Use:
 1. Ensuring VSCode have the following plugins: Solidity
 2. Switch to "client"
 3. Using Terminal Command: "npm install web3 ethers hardhat"
