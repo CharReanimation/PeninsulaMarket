@@ -5,7 +5,7 @@ A Website using the Ethereum network. <br />
 Currently running with Hardhat (Locally) <br />
 
 #### Tech Using:
-Ethereum Hardhat
+Ethereum Hardhat <br />
 ReactJS <br />
 Web3JS <br />
 
