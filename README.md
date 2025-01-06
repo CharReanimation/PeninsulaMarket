@@ -1,9 +1,14 @@
 # SelfWeb3Website: PeninsulaMarket (WIP)
 
 ## What's this?
-A Website using the Ethereum network. Currently running with Hardhat (Locally)
-Solidity (for Smart Contracts) and ReactJS (for the Front-End) are the main technologies used. <br />
- <br />
+A Website using the Ethereum network. <br />
+Currently running with Hardhat (Locally) <br />
+#### Tech Using:
+Solidity <br />
+JavaScript <br />
+ReactJS <br />
+Web3JS <br />
+<br />
 
 
 
