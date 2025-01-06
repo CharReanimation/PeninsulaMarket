@@ -98,7 +98,7 @@ VSCode <br />
 
 ## How To Use:
 1. Ensuring VSCode have the following plugins: Solidity
-2. Switch to "client"
+2. Switch to "client" Folder
 3. Using Terminal Command: "npm install web3 ethers hardhat"
 4. Using Terminal Command: "npx hardhat"
 5. Using Terminal Command: "npm install --save-deve @nomicfoundation/hardhat-toolbox"
