@@ -72,6 +72,7 @@ Now, it is still working in progress
 #### Profile
 This page will show your account profile: Avatar, Address, Token Balance
 <br />
+<br />
 
 
 
