@@ -1,7 +1,7 @@
 # SelfWeb3Website: PeninsulaMarket (WIP)
 
 ## What's this?
-A Website using the Ethereum network. <br />
+A Marketing Website using the Ethereum network. <br />
 Currently running with Hardhat (Locally) <br />
 
 #### Tech Using:
