@@ -1,4 +1,4 @@
-# SelfWeb3Website: PeninsulaMarket (WIP)
+# Web3Website: PeninsulaMarket (WIP)
 
 ## What's this?
 A Marketing Website using the Ethereum network. <br />
